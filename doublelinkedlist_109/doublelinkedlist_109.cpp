@@ -160,7 +160,7 @@ void DoubleLinkedList::searchData() {
 	cout << "\nEnter the roll of the student whose record you want to search: ";
 	int num;
 	cin >> num;
-	if (DoubleLinkedListLLsearch(nuum, &prev, &curr) == false)
+	if (DoubleLinkedList::search(num, &prev, &curr) == false)
 		cout << "\nRecord not found" << endl;
 	else {
 		cout << "\nRecord found" << endl;
