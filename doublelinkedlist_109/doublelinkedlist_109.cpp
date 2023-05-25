@@ -22,7 +22,7 @@ public:
 	void traverse();
 	void revtraverse();
 	void hapus();
-	void searchdata();
+	void searchData();
 };
 
 DoubleLinkedList::DoubleLinkedList() {
